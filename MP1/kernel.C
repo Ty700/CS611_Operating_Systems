@@ -34,13 +34,14 @@ int main()
   SimpleConsole::puts("\n");
 
   // SimpleConsole::puts("Replace the following <NAME> field with your name.\n");
-  SimpleConsole::puts("After your are done admiring your output, you can shutdown this 'machine'.\n");
+  // SimpleConsole::puts("After your are done admiring your output, you can shutdown this 'machine'.\n");
   SimpleConsole::puts("\n");
-  SimpleConsole::puts("WELCOME TO MY KERNEL!\n");
-  SimpleConsole::puts("      ");
-  SimpleConsole::set_TextColor(GREEN, RED);
-  SimpleConsole::puts("Tyler!!!");
-  
+  SimpleConsole::puts("WELCOME TO ");
+  SimpleConsole::set_TextColor(LIGHT_BLUE, BLACK);
+  SimpleConsole::puts("Tyler's ");
+  SimpleConsole::set_TextColor(WHITE, BLACK);
+  SimpleConsole::puts("KERNEL!\n");
+
   /* -- LOOP FOREVER! */
   for(;;);
   
